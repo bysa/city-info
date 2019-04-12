@@ -1,0 +1,16 @@
+projects:
+  cityinfoapi:
+    schemaPath: src\graphql\schema.json
+    includes:
+      - src\graphql\**\*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src\graphql
+        graphQLApiId: qseng6taqbbijhgnpyz7ky4yxe
+      endpoints:
+        prod: >-
+          https://uq3ema254zedho4sft627bcuea.appsync-api.us-east-2.amazonaws.com/graphql

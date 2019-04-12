@@ -1,0 +1,19 @@
+{
+    "cityinfo": {
+        "awscloudformation": {
+            "AuthRoleName": "city-info-20190411053159-authRole",
+            "UnauthRoleArn": "arn:aws:iam::615979602291:role/city-info-20190411053159-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::615979602291:role/city-info-20190411053159-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "city-info-20190411053159-deployment",
+            "UnauthRoleName": "city-info-20190411053159-unauthRole",
+            "StackName": "city-info-20190411053159",
+            "StackId": "arn:aws:cloudformation:us-east-2:615979602291:stack/city-info-20190411053159/a9266650-5c3c-11e9-933e-0a7dfa8cb208"
+        },
+        "categories": {
+            "auth": {
+                "cognito313cf1f4": {}
+            }
+        }
+    }
+}
