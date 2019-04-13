@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import { API, graphqlOperation } from "aws-amplify";
+import { withAuthenticator } from "aws-amplify-react";
 
 const ListCities = `
   query list {
@@ -96,4 +97,5 @@ class App extends Component {
   }
 }
 
-export default App;
+export default withAuthenticator(App, { includeGreeting: true });
+// export default App;
